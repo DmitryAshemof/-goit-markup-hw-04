@@ -140,9 +140,21 @@ p {
 
  .hero {
     padding: 188px 0 188px;
-    /* width: 1440px;
-    height: 600px; */
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
     background-color: #2E2F42;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/peopleoffice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
  }
 
  .hero .container {
@@ -205,6 +217,21 @@ p {
    clip-path: inset(100%);
    clip: rect(0 0 0 0);
    overflow: hidden;
+}
+
+.icon-box {
+    display: flex;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
 }
 
  .advantage-post-title {
