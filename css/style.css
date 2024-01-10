@@ -107,8 +107,9 @@ p {
     padding: 24px 0 24px
 }
 
-.list-link:active {
-   text-decoration: underline;
+
+.nav-link:active::after {
+    
    color: #404BBF;
 }
 
@@ -151,6 +152,7 @@ p {
         ),
         url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
 
@@ -315,7 +317,33 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
+
+.team-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.icon-link:hover {
+    background-color:#404BBF;
+}
+
+
+
 .team-card {
     color: #2E2F42;
     background-color: #FFFFFF;
@@ -388,6 +416,7 @@ p {
  }
 
  .footer .container {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
  }
@@ -409,7 +438,35 @@ p {
     color: #F4F4FD;
  }
  .footer-text {
+    max-width: 264px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #F4F4FD;
  }
+
+ .footer-media-text {
+     /* font-family: Roboto; */
+     font-size: 16px; 
+     /* font-weight: 500; */
+     line-height: 24px; 
+     letter-spacing: 0.32px;
+     margin-bottom: 16px;
+
+     color: var(--WHITE, #FFF);
+    }
+
+ .footer-icon-list {
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 16px;
+ }
+
+ .media {
+     width: 208px;
+     height: 80px;
+     flex-shrink: 0;
+     margin-left: 120px;
+    
+ }
+
+ 
