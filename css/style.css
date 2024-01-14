@@ -30,10 +30,10 @@ a {
     font-style: normal;
     letter-spacing: 0.02em;
 }
-a:hover,
+/* a:hover,
 a:focus{
     color: #404BBF;
-}
+} */
 
 img {
     display: block;
@@ -143,7 +143,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    color: #404BBF;
 }
 
-.nav-link:active::after {
+/* .nav-link:active::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -153,7 +153,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
     background-color: #404bbf;
     border-radius: 2px;
-}
+} */
 
 /* ADDRESS */
 
